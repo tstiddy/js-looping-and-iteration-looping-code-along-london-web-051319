@@ -10,5 +10,18 @@
 </head>
 <body>
   hello
+  <script type="text/javascript">
+  const namesArray = ["Ada", "Brendan", "Ali"];
+  const event = ('birthday');
+  function writeCards(namesArray, event) {
+    let thankYouCards = []
+    for (let i = 0; i < namesArray.length; i++) {
+      thankYouCards.push("Thank you, ${namesArray[i]}, for the wondeful ${event} gift!")
+      console.log('Thank you ${namesArray[i]}, for the wondeful ${event} gift.')
+    }
+
+    return thankYouCards
+  }
+  </script>
 </body>
 </html>
